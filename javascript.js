@@ -1,10 +1,4 @@
-function onClick(inputName){
-document.getElementById("output").innerHTML = "Can you see me?";
+function onClick(inputName) {
+document.getElementById("output").innerHTML = "Now I am in control";
 alert('Hello, ' + inputName + '!');
-const myvariablename = {name: "Adam"};
-     console. log(myvariablename.name);
-
-     const myList = [];
-     console.log(myList[0]);
 }
-    
