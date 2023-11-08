@@ -1,1 +1,11 @@
-backround color red 
+body {
+    background-color: brown;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+  }
