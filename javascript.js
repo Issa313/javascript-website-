@@ -1,4 +1,4 @@
 function onClick(inputName) {
-    document.getElementById("output").innerHTML = "Now i am in control";
+    document.getElementById("output").innerHTML = "TIME TO DIE!!!!!!!!!!!!!!";
     alert('Hello, ' + inputName + '!');
 }
