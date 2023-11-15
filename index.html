@@ -2,12 +2,14 @@
 <html>
    <head>
       <title>Page Title</title>
+      <link rel="stylesheet" href="mystyle.css">
       <script src="javascript.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
    </head>
    <body>
       <h1>What is your name?</h1>
       <input id="insertedName"/>
-      <p id="output">Nice To Meat You! (LOOK BELOW!) KEEP LOOKING HERE AFTER CLICKING "OK".</p>
-      <button onPress="onPress(insertedName.value)">Press OK</button>
+      <p id="displayedText">Nice To Meat You! (LOOK BELOW!) KEEP LOOKING HERE AFTER CLICKING "OK".</p>
+      <button onclick="onClick(insertedName.value)">Press OK</button>
    </body>
 </html>

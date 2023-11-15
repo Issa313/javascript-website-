@@ -1,5 +1,5 @@
-function onPress(inputValue) {
-    document.getElementById("displayedText").innerHTML = "Now I am in control";
+function onClick(inputValue) {
+    document.getElementById("displayedText").innerHTML = "JUMP SCARE!!!!!!!!!!!";
     const user = {name: 'Bob'};
     console.log('Hello ' + user.name);
 
@@ -9,5 +9,5 @@ function onPress(inputValue) {
 
     console.log ('Second name in list of objects -----',users[1].name);
     alert('Hello, ' + inputValue + '!');
+    $.get(URL,callback);
 }
-
