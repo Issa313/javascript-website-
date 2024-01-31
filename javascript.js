@@ -20,7 +20,13 @@ function addNamesToHTML(data) {
     const title = document.createElement("button");
     title.innerHTML = pokemon.name;
     pokemonContainer.append(title);
-    console.log("Name with H2 tag: ", pokemonContainer);
+
+    console.log("Pokemon url:  ", pokemon.url);
+    const image = document.createElement("img");
+    image.setAttribute("src", "");
+    image.setAttribute("style", "width: 400px; height:400px;");
+    pokemonContainer.append(image);
+    console.log("Name with div tag: ", pokemonContainer);
 
     return pokemonContainer;
   });
